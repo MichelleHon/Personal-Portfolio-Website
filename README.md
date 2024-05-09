@@ -1,3 +1,3 @@
-# Personal-website
+# Personal Portfolio Website
 
-This is a version without JS & a whole lot of scuff
+currently under construction
