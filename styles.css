@@ -1,0 +1,589 @@
+body {
+    background-color: #2D033B;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    color: white;
+    size: 20px;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    opacity: 1;
+}
+
+.mainpic {
+    position: fixed;
+    bottom: 30px;
+    right: 360px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 8px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+p.welcome {
+    position: fixed;
+    bottom: 31px;
+    left: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+  }
+
+/* Landing page 
+
+.picture {
+    position: fixed;
+    bottom: 50;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    position: absolute;
+    bottom: 10px;
+    right: 630px;
+    font-family: 'Vina Sans';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.typewriter {
+    min-height: 30%;
+    overflow: hidden;
+    padding: 30px;
+    color: #FFFFF3;
+    font-family: 'Anonymous Pro', monospace;
+    background-color: #2D033B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}
+
+.line {
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid #FFFFF3;
+    font-family: 'Vina Sans';
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.type {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 24em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: #FFFFF3;
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+*/
+
+/* intro */ /* if want to do for entire intro only eg bg pic then use * {} */
+
+span {
+    color: #acdf87;
+}
+
+.mh {
+    color: black;
+    font-size: 75px;
+    position: absolute; /* no position absolute */
+    top: 160px;
+    left: 490px;
+}
+
+h3 {
+    color: black;
+    font-size: 28px;
+}
+
+.hss {
+    position: absolute;
+    top: 340px;
+    left: 520px;
+}
+
+.te {
+    position: absolute;
+    top: 340px;
+    left: 720px;
+}
+
+.ac {
+    position: absolute;
+    top: 340px;
+    left: 950px;
+}
+
+.hi {
+    color: #FCFC;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+}
+
+.contactbutton {
+    background-color: #acdf87;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    font-size: 20px;
+    text-shadow: 4px 2px 4px #000;
+    position: absolute;
+    top: 565px;
+    left: 500px;
+}
+
+.contactbutton:hover {
+    background-color: #fcfc;
+    border: 3px solid;
+    cursor: pointer;
+    color: white;
+}
+
+.resumebtn {
+    background-color: #acdf87;
+    color: white;
+    text-decoration: none;
+    border: 3px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform 0.4s;
+    font-size: 20px;
+    text-shadow: 4px 2px 4px #000;
+    position: absolute;
+    top: 565px;
+    left: 940px;
+}
+
+.resumebtn:hover {
+    background-color: #fcfc;
+    border: 3px solid;
+    cursor: pointer;
+    color: white;
+}
+
+/* skills */
+h4 {
+    color: black;
+    font-size: 28px;
+}
+
+.diamond {
+    position: fixed;
+    bottom: 380px;
+    left: 600px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 280px;
+}
+
+.diamond:hover {
+    border: 3px solid;
+    cursor: pointer;
+    color: black;
+}
+
+.club {
+    position: fixed;
+    bottom: 380px;
+    left: 850px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 200px;
+    height: 280px;
+}
+
+.club:hover {
+    border: 3px solid;
+    cursor: pointer;
+    color: black;
+}
+
+.dia1 {
+    position: fixed;
+    bottom: 387px;
+    left: 743px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+.clu1 {
+    position: fixed;
+    bottom: 387px;
+    left: 993px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+}
+
+.dia2 {
+    position: fixed;
+    bottom: 585px;
+    left: 607px;
+}
+
+.clu2 {
+    position: fixed;
+    bottom: 585px;
+    left: 858px;
+}
+
+/* education */
+.ubc {
+    position: fixed;
+    bottom: 470px;
+    left: 525px;
+    opacity: 0.9;
+}
+
+.grow1 {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 60px;
+    width: 15%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: absolute;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    transition: 1.5s;
+    border: 3px solid;
+    cursor: pointer;
+    color: black;
+    position: fixed;
+    bottom: 370px;
+    left: 480px;
+    color: white;
+}
+
+.grow1:hover {
+    height: 300px;
+    width: 21%;
+    background-color: #FCFC;
+    opacity: 1;
+    color: black;
+}
+
+/* experience */
+.one {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    position: absolute;
+    top: 85px;
+    left: 500px;
+}
+
+.one-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.one:hover .one-inner {
+    transform: rotateY(180deg);
+}
+
+.one-front,
+.one-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.one-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.one-back {
+    background-color: #FCFC;
+    color: black;
+    text-shadow: 2px 2px white;
+    transform: rotateY(180deg);
+}
+
+.two {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    position: absolute;
+    top: 85px;
+    left: 710px;
+}
+
+.two-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.two:hover .two-inner {
+    transform: rotateY(180deg);
+}
+
+.two-front,
+.two-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.two-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.two-back {
+    background-color: #FCFC;
+    color: black;
+    text-shadow: 2px 2px white;
+    transform: rotateY(180deg);
+}
+
+.three {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    position: absolute;
+    top: 85px;
+    left: 930px;
+}
+
+.three-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.three:hover .three-inner {
+    transform: rotateY(180deg);
+}
+
+.three-front,
+.three-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.three-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.three-back {
+    background-color: #FCFC;
+    color: black;
+    text-shadow: 2px 2px white;
+    transform: rotateY(180deg);
+}
+
+.four {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    perspective: 1000px;
+    position: absolute;
+    top: 295px;
+    left: 500px;
+}
+
+.four-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.four:hover .four-inner {
+    transform: rotateY(180deg);
+}
+
+.four-front,
+.four-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.four-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.four-back {
+    background-color: #FCFC;
+    color: black;
+    text-shadow: 2px 2px white;
+    transform: rotateY(180deg);
+}
+
+/* sidep */
+.pro1 {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 250px;
+    width: 40%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    transition: 1.5s;
+    cursor: pointer;
+    position: fixed;
+    bottom: 377px;
+    left: 480px;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px #888888;
+}
+
+.pro1:hover {
+    background-color: rgba(172, 223, 135, 1);
+    cursor: pointer;
+}
+
+h2 {
+    color: #FCFC;
+    text-shadow: 1px 1px black;
+}
+
+/* contact */
+p.contacts {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: fixed;
+    bottom: 31px;
+    left: 350px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+}
+
+.socials {
+    list-style: none;
+    padding-top: 550px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+}
+
+.socials li {
+    margin: 0 70px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i {
+    font-size: 1.6rem;
+    transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+    color: #acdf87;
+    transform: scale(1.3);
+}
