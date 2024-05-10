@@ -1,32 +1,10 @@
 body {
-    background-color: #2D033B;
+    background-color: #fbfbf9;
+    /* cotton */
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
-}
-
-a,
-a:link,
-a:visited {
-    color: white;
-    size: 20px;
-}
-
-img {
-    width: 30%;
-    height: auto;
-    opacity: 1;
-}
-
-.mainpic {
-    position: fixed;
-    bottom: 30px;
-    right: 360px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 a {
@@ -35,10 +13,31 @@ a {
     padding: 8px 8px;
 }
 
+/* check if this works, maybe redundant */
+
 a:hover {
     background-color: #ddd;
     color: black;
 }
+
+/* check if this works, maybe redundant */
+
+a,
+a:link,
+a:visited {
+    color: white;
+    size: 20px;
+}
+
+/* check if this works, maybe redundant */
+
+img {
+    width: 30%;
+    height: auto;
+    opacity: 1;
+}
+
+/* have not used so far */
 
 p.welcome {
     position: fixed;
@@ -49,7 +48,9 @@ p.welcome {
     align-items: center;
     justify-content: center;
     font-size: 50px;
-  }
+}
+
+/* have not used so far */
 
 /* Landing page 
 
@@ -127,52 +128,72 @@ p.welcome {
 }
 */
 
-/* intro */ /* if want to do for entire intro only eg bg pic then use * {} */
+/* intro */
+/* if want to do for entire intro only eg bg pic then use * {} */
 
 span {
-    color: #acdf87;
+    color: #b0f2c2;
 }
 
-.mh {
-    color: black;
+h1 {
+    color: #0b1623;
+    margin: 20px 0px 20px;
     font-size: 75px;
-    position: absolute; /* no position absolute */
-    top: 160px;
-    left: 490px;
 }
 
 h3 {
-    color: black;
-    font-size: 28px;
+    color: #0b1623;
+    font-size: 25px;
+    margin-bottom: 50px;
 }
 
-.hss {
-    position: absolute;
-    top: 340px;
-    left: 520px;
-}
-
-.te {
-    position: absolute;
-    top: 340px;
-    left: 720px;
-}
-
-.ac {
-    position: absolute;
-    top: 340px;
-    left: 950px;
-}
-
-.hi {
-    color: #FCFC;
+h4 {
+    color: #0b1623;
     letter-spacing: 2px;
     font-size: 20px;
-    text-shadow: 1px 1px black;
 }
 
-.contactbutton {
-    background-color: #acdf87;
+.intro {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.intro-socials {
+    list-style: none;
+    display: flex;
+    margin: 1rem 0 5rem 0;
+}
+
+.intro-socials li {
+    margin: 0 10px;
+}
+
+.intro-socials a {
+    text-decoration: none;
+    color: #0b1623;
+}
+
+.intro-socials a i {
+    font-size: 1.6rem;
+    transition: color 0.4s ease;
+}
+
+.intro-socials a:hover i {
+    color: #b0f2c2;
+    transform: scale(1.3);
+}
+
+.learn-more-button {
+    background-color: #b0f2c2;
     color: white;
     text-decoration: none;
     border: 3px solid transparent;
@@ -182,39 +203,12 @@ h3 {
     transition: transform 0.4s;
     font-size: 20px;
     text-shadow: 4px 2px 4px #000;
-    position: absolute;
-    top: 565px;
-    left: 500px;
 }
 
-.contactbutton:hover {
-    background-color: #fcfc;
+.learn-more-button:hover {
+    background-color: #b0f2c2;
     border: 3px solid;
     cursor: pointer;
-    color: white;
-}
-
-.resumebtn {
-    background-color: #acdf87;
-    color: white;
-    text-decoration: none;
-    border: 3px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform 0.4s;
-    font-size: 20px;
-    text-shadow: 4px 2px 4px #000;
-    position: absolute;
-    top: 565px;
-    left: 940px;
-}
-
-.resumebtn:hover {
-    background-color: #fcfc;
-    border: 3px solid;
-    cursor: pointer;
-    color: white;
 }
 
 /* skills */
