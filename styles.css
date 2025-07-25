@@ -190,7 +190,7 @@ a:hover {
 
 .pro-box {
     position: relative;
-    height: 450px;
+    height: 510px;
     perspective: 1000px;
     border-radius: 10px;
     overflow: hidden;
@@ -258,6 +258,10 @@ a:hover {
     padding: 40px 20px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 300px;
 }
 
 .eca h1 {
@@ -272,79 +276,74 @@ a:hover {
     left: 8%;
 }
 
-.widspic {
+.pic-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.widspic, .ltspic {
     position: relative;
-    opacity: 0.9;
-    padding: 50px 20px;
+    opacity: 0.8;
     margin: 0 auto;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+}
+
+.wids, .lts {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 155px;
+    width: 400px;
+    margin: 5px 1% 5px 1%;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+    transition: 1.0s;
+    border: 3px solid;
+    cursor: pointer;
+    color: #b0c2f2;
     align-items: center;
 }
   
-.ltspic {
-    position: absolute;
-    bottom: 470px;
-    left: 875px;
-    opacity: 0.9;
+.wids:hover, .lts:hover {
+    height: 400px;
+    width: 520px;
+    opacity: 1;
+    color: #e9b0f2
 }
 
-.wids {
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    height: 60px;
-    width: 15%;
-    margin: 5px 1% 5px 1%;
-    float: left;
-    position: absolute;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
-    text-align: center;
-    overflow: hidden;
-    transition: 1.5s;
-    border: 3px solid;
-    cursor: pointer;
-    color: #0b1623;
-    position: fixed;
-    bottom: 370px;
-    left: 480px;
+.eca h2 {
     color: #b0c2f2;
+    font-size: 35px;
+    text-align: center; 
+    max-width: 100%; 
 }
-  
-.wids:hover {
-    height: 300px;
-    width: 21%;
-    background-color: #FCFC;
-    opacity: 1;
-    color: #0b1623;
-}
-  
-.lts {
-    padding: 5px 5px 5px 5px;
-    border-radius: 10px;
-    height: 60px;
-    width: 15%;
-    margin: 5px 1% 5px 1%;
-    float: left;
-    position: absolute;
-    transition: height 0.5s;
-    -webkit-transition: height 0.5s;
-    text-align: center;
-    overflow: hidden;
-    transition: 1.5s;
-    border: 3px solid;
-    cursor: pointer;
-    color: #0b1623;
-    position: fixed;
-    bottom: 370px;
-    left: 816px;
+
+.eca h3 {
     color: #b0c2f2;
+    font-size: 30px;
+    text-align: center; 
+    max-width: 100%; 
 }
-  
-.lts:hover {
-    height: 300px;
-    width: 21%;
-    background-color: #FCFC;
-    opacity: 1;
-    color: #0b1623;
+
+.eca h4 {
+    color: #b0c2f2;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.eca p {
+    color: #b0c2f2;
+    font-size: 18px;
+    text-align: center; 
+    max-width: 100%; 
 }
 
 /* Footer */
